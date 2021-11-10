@@ -1,0 +1,32 @@
+{
+  "model_name": "HY_IITP_ESNet1",
+  "dataset": "IITP_ES1",  
+  "feature_options": {
+    "data_path": "/data/DB/Official/AEC-Challenge/datasets/synthetic/nearend_mic_signal/",
+    "batch_size": 4,
+    "num_workers": 8,
+    "sampling_rate": 16000
+  },
+  "optimizer_options": {
+    "name": "adam",
+    "lr": 0.0001
+  },
+  "model_options": {
+    "fix": "True",
+    "win_len": 256,
+    "win_inc": 128,
+    "win_type": "hanning",
+    "B": 128,
+    "H": 256,
+    "P": 3,
+    "norm": "BN",
+    "non_linear": "sigmoid"
+  },
+  "loss_option": "loss_IITP_ESNet",
+  "gamma_base": 0.5,
+  "gamma_power_den": 300,
+  "num_epoch": 2000,
+  "max_early_stop_count": 10,
+  "output_path": "./output/",
+  "cuda_option": "True"
+}
