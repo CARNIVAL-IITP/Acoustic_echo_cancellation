@@ -5,7 +5,7 @@ AEC-Challenge baseline을 개선하여 context를 고려한 GRU 기반의 에코
 * Audio context를 고려한 GRU 기반의 네트워크
 * 네트워크의 feature로 STFT를 사용
 
-Microsoft에서 개최한 AEC-Challenge의 synthetic DB로 훈련하였으며 총 10,000 set 중 500 set는 validation 및 test set으로 사용하고 나머지 9,500 set는 train set로 사용
+Microsoft에서 개최한 AEC-Challenge의 synthetic DB로 훈련하였으며 총 10,000 set 중 500 set는 validation 및 test set으로 사용하고 나머지 9,500 set는 train set로 사용하였습니다.
 
 ## Requirements
 * Pytorch
