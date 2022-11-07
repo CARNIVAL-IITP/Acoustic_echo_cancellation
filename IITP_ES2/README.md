@@ -19,8 +19,11 @@ Train/ validation set을 SiTEC Dict 02 dataset을 이용하였으며 test set은
 
 ## Prepare dataset
 We used [SiTEC dataset](http://sitec.or.kr)
+
 Train 데이터의 생성은 SiTEC Dict 02 dataset 중에서 각각 임의의 남녀 화자 100명씩을 고르고 매칭을 통해 near-end/far-end 쌍으로 남/여 20, 여/남 20, 남/남 30, 여/여 30쌍을 구축하고 far-end 화자의 발화 중 임의의 3개를 골라 이어붙여 far-end를 생성하고 near-end 화자의 발화 중 임의의 1개를 골라 양쪽으로 zero padding을 통해 길이를 맞추어 진행하였습니다.
+
 Validation 데이터의 생성은 SiTEC Dict 02 dataset 중에서 학습에 사용하지않은 임의의 남녀 화자 20명씩을 고르고 매칭을 통해 near-end/far-end 쌍으로 남/여 5, 여/남 5, 남/남 5, 여/여 5쌍을 구축하였으며 그 외는 학습 데이터의 생성과 동일하게 진행하였습니다.
+
 Test 데이터의 생성은 SiTEC Dict 01 dataset 중에서 각각 임의의 남녀 화자 30명씩을 고르고 매칭을 통해 near-end/far-end 쌍으로 남/여 8, 여/남 8, 남/남 7, 여/여 7쌍을 구축였으며 그 외는 학습 데이터의 생성과 동일하게 진행하였습니다.
 
 <!-- ## Training
