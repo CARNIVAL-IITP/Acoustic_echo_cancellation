@@ -21,7 +21,7 @@ Test 데이터의 생성은 SiTEC Dict 01 dataset 중에서 각각 임의의 남
 * scipy
 
 ## Prepare dataset
-We used [SiTEC dataset[(http://sitec.or.kr)
+We used [SiTEC dataset](http://sitec.or.kr)
 
 <!-- ## Training
 To train the model, run this command
