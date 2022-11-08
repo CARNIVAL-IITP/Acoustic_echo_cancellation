@@ -20,8 +20,6 @@ SiTEC Dict 01 dataset의 남녀 화자 각 200명 중 남녀 각 170명 (총 340
 We used [SiTEC dataset](http://sitec.or.kr)
 
 Train 데이터의 생성은 SiTEC Dict 01 dataset 중 남녀 화자 각 170명씩을 고르고 8개의 방환경에 대해서 하울링 시스템을 통해 하울링 발생 신호 및 하울링 발생 전 신호를 생성하였습니다.  
-
 Validation 데이터의 생성은 SiTEC Dict 01 dataset 중 남녀 화자 각 15명씩을 고르고 8개의 방환경에 대해서 하울링 시스템을 통해 하울링 발생 신호 및 하울링 발생 전 신호를 생성하였습니다.  
-
 Test 데이터의 생성은 SiTEC Dict 01 dataset 중 나머지 남녀 화자 각 15명씩을 고르고 8개의 방환경에 대해서 하울링 시스템을 통해 하울링 발생 신호 및 하울링 발생 전 신호를 생성하였습니다.  
 
