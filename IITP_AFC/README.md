@@ -1,8 +1,6 @@
-# Acoustic feedback cancellation
-
-16kHz의 한국어 데이터베이스 Sitec DB를 통한 딥러닝 기반 하울링 제거 기법
-
-### About
-
-- 인과 시스템과 40 ms이내의 1프레임 지연시간을 통한 실시간 하울링 제거
-- 딥러닝 모델을 통한 하울링 발생 전, 후 신호 사이 비선형적 관계 매핑을 통한 성능 향상
+# Acoustic feedback cancellation  
+본 코드는 2022년도 과학기술통신부의 재원으로 정보통신기획평가원(IITP)의 지원을 받아 수행한 "원격 다자간 영상회의에서의 음성 품질 고도화 기술개발" 과제의 일환으로 공개된 하울링 제거의 2차년도 코드입니다.  
+본 모델의 특징은 다음과 같습니다.
+* Audio context를 고려한 LSTM 기반의 네트워크
+* 네트워크의 feature로 STFT를 사용
+* 신호간의 correlation을 loss로 사용하여 개선된 성능 확보
