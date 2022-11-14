@@ -26,7 +26,7 @@ Validation 데이터의 생성은 SiTEC Dict 02 dataset 중에서 학습에 사�
 
 Test 데이터의 생성은 SiTEC Dict 01 dataset 중에서 각각 임의의 남녀 화자 30명씩을 고르고 매칭을 통해 near-end/far-end 쌍으로 남/여 8, 여/남 8, 남/남 7, 여/여 7쌍을 구축였으며 그 외는 학습 데이터의 생성과 동일하게 진행하였습니다.
 
-<!-- ## Training
+## Training
 To train the model, run this command
 
     python train.py -c configs/train.json
@@ -34,4 +34,4 @@ To train the model, run this command
 ## Test
 To test the model, run this command
 
-    python test.py -c configs/test.json -->
+    python test.py -c configs/test.json
