@@ -21,7 +21,7 @@
     "B": 128,
     "H": 256,
     "P": 3,
-    "X": 2,
+    "X": 1,
     "R": 1,
     "norm": "BN",
     "non_linear": "sigmoid",
