@@ -41,4 +41,4 @@ To test the model, run this command
 To be added
 
 Reference code:
-● AEC-Challenge : https://github.com/microsoft/AEC-Challenge
+* AEC-Challenge : https://github.com/microsoft/AEC-Challenge
