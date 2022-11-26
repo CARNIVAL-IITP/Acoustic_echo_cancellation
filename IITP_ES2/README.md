@@ -4,19 +4,19 @@ Carnival system을 구성하는 Acoustic echo cancellatiojn 모델입니다. 과
 본 모델은 1차년도 모델을 개선하여 global context를 고려한 LSTM 기반의 에코제거 모델로 단일 마이크에 입력되는 음성과 far-end 신호를 이용하여 에코를 제거하는 형태로 동작합니다. 본 실험은 SiTEC 한국어 음성 DB를 사용하여 진행되었습니다.
 
 본 모델의 특징은 다음과 같습니다.
-● Audio context를 고려한 LSTM 기반의 네트워크
-● 네트워크의 feature로 STFT를 사용
-● 신호간의 correlation을 loss로 사용하여 개선된 성능 확보
+* Audio context를 고려한 LSTM 기반의 네트워크
+* 네트워크의 feature로 STFT를 사용
+* 신호간의 correlation을 loss로 사용하여 개선된 성능 확보
 
 Train/ validation set을 SiTEC Dict 02 dataset을 이용하였으며 test set은 SiTEC Dict 01 dataset을 이용하였습니다.
 각각의 파일은 8초 길이이며 각 8개의 방에 대하여 방별로 train 4,500 set (10 h), validation 500 set (약 1.11 h), test 500 set (약 1.11 h) 분량입니다.
 
 ## Requirements
-● Pytorch
-● numpy
-● soundfile
-● librosa
-● scipy
+* Pytorch
+* numpy
+* soundfile
+* librosa
+* scipy
 
 ## Prepare dataset
 We used [SiTEC dataset](http://sitec.or.kr)
@@ -40,5 +40,5 @@ To test the model, run this command
 ## Evaluation
 To be added
 
-Reference code:
+## Reference code
 * AEC-Challenge : https://github.com/microsoft/AEC-Challenge
