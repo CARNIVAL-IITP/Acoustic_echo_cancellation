@@ -21,6 +21,7 @@ SiTEC Dict 01 dataset의 남녀 화자 각 200명 중 남녀 각 170명 (총 340
 * numpy
 * soundfile
 * librosa
+* pystoi
   
 ## Prepare dataset
 We used [SiTEC dataset](http://sitec.or.kr)
