@@ -49,4 +49,4 @@ To evaluate STOI of the model, run this command
     python evaluate_STOI.py
 
 ## Reference code
-To be added
+* convolutional recurrent network: https://github.com/bgshih/crnn
