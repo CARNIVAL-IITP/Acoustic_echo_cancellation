@@ -1,5 +1,5 @@
 # Acoustic_echo_cancellation
-Carnival system을 구성하는 Acoustic echo cancellatiojn 모델입니다. 과학기술통신부 재원으로 정보통신기획평가원(IITP) 지원을 받아 수행한 "원격 다자간 영상회의에서의 음성 품질 고도화 기술개발" 과제 공개 코드입니다. (2021.05~2024.12)
+Carnival system을 구성하는 Acoustic echo cancellation 모델입니다. 과학기술통신부 재원으로 정보통신기획평가원(IITP) 지원을 받아 수행한 "원격 다자간 영상회의에서의 음성 품질 고도화 기술개발" 과제 공개 코드입니다. (2021.05~2024.12)
 
 본 모델은 1차년도 모델을 개선하여 global context를 고려한 LSTM 기반의 에코제거 모델로 단일 마이크에 입력되는 음성과 far-end 신호를 이용하여 에코를 제거하는 형태로 동작합니다. 본 실험은 SiTEC 한국어 음성 DB를 사용하여 진행되었습니다.
 
