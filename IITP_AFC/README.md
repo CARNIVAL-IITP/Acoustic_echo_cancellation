@@ -40,8 +40,11 @@ To test the model, run this command
     python 2_AFC_enhancement.py
 
 ## Evaluation
+To evaluate PESQ of the model, run this command
 
     python evaluate_PESQ.py
+
+To evaluate STOI of the model, run this command
 
     python evaluate_STOI.py
 
