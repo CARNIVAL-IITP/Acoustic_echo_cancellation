@@ -31,12 +31,12 @@ Test 데이터의 생성은 SiTEC Dict 01 dataset 중 나머지 남녀 화자 �
 ## Training
 To train the model, run this command
 
-    python train.py
+    python 1_AFC_train.py
     
 ## Test
 To test the model, run this command
 
-    python test.py
+    python 2_AFC_enhancement.py
 
 ## Evaluation
 To be added
