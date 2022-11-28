@@ -40,7 +40,10 @@ To test the model, run this command
     python 2_AFC_enhancement.py
 
 ## Evaluation
-To be added
+
+    python evaluate_PESQ.py
+
+    python evaluate_STOI.py
 
 ## Reference code
 To be added
