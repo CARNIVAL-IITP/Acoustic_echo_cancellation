@@ -7,11 +7,7 @@ Carnival system을 구성하는 Acoustic feedback cancellation 모델입니다. 
 * Audio context와 local 정보를 고려하기 위한 CRN 기반의 네트워크
 * 네트워크의 feature로 STFT를 사용
 * 신호간의 correlation을 loss로 사용하여 개선된 성능 확보  
-  
-Train/ validation set을 SiTEC Dict 02 dataset을 이용하였으며 test set은 SiTEC Dict 01 dataset을 이용하였습니다.  
-각각의 파일은 8초 길이이며 각 8개의 방에 대하여 방별로 train 4,500 set (10 h), validation 500 set (약 1.11 h), test 500 set (약 1.11 h) 분량입니다.
-본 코드는 2022년도 과학기술통신부의 재원으로 정보통신기획평가원(IITP)의 지원을 받아 수행한 "원격 다자간 영상회의에서의 음성 품질 고도화 기술개발" 과제의 일환으로 공개된 하울링 제거의 2차년도 코드입니다.  
-
+   
 SiTEC Dict 01 dataset의 남녀 화자 각 200명 중 남녀 각 170명 (총 340명)으로 train dataset을, 남녀 각 15명으로 validation dataset을, 나머지 남녀 각 15명으로 test set을 구성하였습니다.  
 각각의 파일은 약 4초 길이이며 각 8개의 방에 대하여 방별로 train 282,528 set (313 h), validation 24,968 set (약 27 h), test 25,824 set (약 28 h) 분량입니다.
 본 코드는 2022년도 과학기술통신부의 재원으로 정보통신기획평가원(IITP)의 지원을 받아 수행한 "원격 다자간 영상회의에서의 음성 품질 고도화 기술개발" 과제의 일환으로 공개된 하울링 제거의 2차년도 코드입니다.  
