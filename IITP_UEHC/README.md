@@ -5,6 +5,7 @@ Carnival system을 구성하는 Acoustic echo cancellation 모델입니다. 과�
 
 본 모델의 특징은 다음과 같습니다.
 * Far-end단의 system을 고려하여 closed-loop의 실제 화상회의 환경을 시뮬레이션
+* 위로 인하여 far-end의 신호는 far-end clean speech가 아닌 제거하지 못한 near-end의 신호도 포함
 * 에코 및 하울링 통합 제거 모델이 없을 경우 하울링 발생
 * 멀티 마이크 기반으로 spatial que를 이용
 
