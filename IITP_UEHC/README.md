@@ -8,6 +8,7 @@ Carnival system을 구성하는 Acoustic echo cancellation 모델입니다. 과�
 * 위로 인하여 far-end의 신호는 far-end clean speech가 아닌 제거하지 못한 near-end의 신호도 포함
 * 에코 및 하울링 통합 제거 모델이 없을 경우 하울링 발생
 * 멀티 마이크 기반으로 spatial que를 이용
+* 학습 시, 매 프레임마다의 학습은 비효율적이므로 지도학습을 통한 학습 데이터 미리 생성
 
 Train/ validation set을 SiTEC Dict 02 dataset을 이용하였으며 test set은 SiTEC Dict 01 dataset을 이용하였습니다.
 각각의 파일은 8초 길이이며 각 8개의 방에 대하여 방별로 train 4,500 set (10 h), validation 500 set (약 1.11 h), test 500 set (약 1.11 h) 분량입니다.
