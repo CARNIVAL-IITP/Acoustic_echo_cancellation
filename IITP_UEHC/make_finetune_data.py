@@ -128,8 +128,7 @@ class tester:
             folder_name = './output/%s/%s_%s_%s'%(model_name, args.dataset, args.loss_option, self.loss_type)          
             model_list = natsort.natsorted(glob.glob(folder_name+'/*'))
             print(model_list)
-            fin_model = model_list[-1]         
-            # fin_model = model_list[23]         
+            fin_model = model_list[-1]            
             print("=============================")
             print(folder_name)
             print(model_name)
