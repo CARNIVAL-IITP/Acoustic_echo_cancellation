@@ -2,7 +2,6 @@ from posixpath import split
 from attrdict import AttrDict
 from losses.loss_util import get_lossfns
 from utils import AverageMeter
-# from models.HY_IITP_ESNet_framebyframe import HY_IITP_ESNet1
 from models.HY_IITP_ESNet_framebyframe import HY_IITP_ESNet2_framebyframe
 from models.HY_IITP_ESNet_framebyframe import HY_IITP_ESNet3_framebyframe
 import argparse, json, numpy as np, os, time, torch, glob, natsort
