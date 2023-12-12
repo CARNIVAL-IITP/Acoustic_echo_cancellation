@@ -48,7 +48,6 @@ def vad(buf):
     return src_idx, dst_idx
 
 def power_amplifier_clipping(buf, max_val):
-    # clipping
     buf = torch.clamp(buf, min=-max_val, max=max_val)
     return buf
 
