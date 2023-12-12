@@ -167,9 +167,6 @@ class tester:
         end = time.time()
         with torch.no_grad():
             for idx, load_path_near_src_nm in enumerate(self.load_path_near_src_nm_list):
-                # if idx % 10 != 0:
-                #     continue
-                # nm -> info (room info, arr info, SER)
                 splited_nm = load_path_near_src_nm.split('/')
                 save_nm = splited_nm[-1].split('.wav')[0]
                 ref_save_path = load_path_near_src_nm.replace('/near_src/','/ref_finetune/')
