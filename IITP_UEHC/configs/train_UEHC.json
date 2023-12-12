@@ -1,0 +1,38 @@
+{
+  "model_name": "HY_IITP_ESNet3_UEHC",
+  "dataset": "IITP_ES3",  
+  "feature_options": {
+    "data_path": "/root/jp/hard2/IITP_echo/",
+    "arr": "linear",
+    "chan": 8,
+    "batch_size": 32,
+    "num_workers": 0,
+    "sampling_rate": 16000
+  },
+  "optimizer_options": {
+    "name": "adam",
+    "lr": 0.0001
+  },
+  "model_options": {
+    "fix": "True",
+    "win_len": 256,
+    "win_inc": 128,
+    "win_type": "hann",
+    "B": 128,
+    "H": 256,
+    "P": 3,
+    "X": 1,
+    "R": 1,
+    "chan": 8,
+    "norm": "BN",
+    "non_linear": "sigmoid",
+    "causal": "True"
+  },
+  "loss_option": "loss_IITP_ESNet_corr",
+  "gamma_base": 0.5,
+  "gamma_power_den": 300,
+  "num_epoch": 30,
+  "max_early_stop_count": 100,
+  "output_path": "./output/",
+  "cuda_option": "True"
+}
