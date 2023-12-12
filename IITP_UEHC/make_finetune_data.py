@@ -123,8 +123,7 @@ class tester:
             print(model_name)
             print(fin_model)
         elif model_name == "HY_IITP_ESNet2" or model_name == "AEC_HY_IITP_ESNet2":
-            model = HY_IITP_ESNet2_framebyframe(model_options)
-            # folder_name = './output/230622_311/%s_%s_%s_%s'%(model_name, args.dataset, args.loss_option, self.loss_type)      
+            model = HY_IITP_ESNet2_framebyframe(model_options)   
             folder_name = './output/%s/%s_%s_%s'%(model_name, args.dataset, args.loss_option, self.loss_type)          
             model_list = natsort.natsorted(glob.glob(folder_name+'/*'))
             print(model_list)
