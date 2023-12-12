@@ -253,7 +253,6 @@ class tester:
                     far_mic [:, self.hop_size:] = far_noisy_wav [:,self.hop_size * idx:self.hop_size * (idx+1)] + d_f
                     mic[:, self.hop_size * idx : self.hop_size * (idx+1)] = near_mic[:, self.hop_size:]
                     
-                    # UEHC
                     near_wav_hat, near_hn, near_cn, near_spec = self.near_model(near_mic, near_ref[None, ...], near_hn, near_cn, near_spec)
                     out = torch.cat([out, near_wav_hat], dim=1)
                     far_wav_hat ,  far_hn,  far_cn,  far_spec = self.far_model( far_mic , far_ref [None, ...],  far_hn,  far_cn,  far_spec)
