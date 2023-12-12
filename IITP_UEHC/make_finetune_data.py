@@ -44,7 +44,6 @@ def mic_clipping(buf, max_val):
     return buf
 
 def loudspeaker_asymmetric_nonlinear(buf):
-    # b(n)
     buf_b = 1.5 * buf - 0.3 * (buf**2)
     buf_nl = torch.zeros_like(buf)
     palpha = torch.where(buf_b > 0, 4.0, 0.5)
